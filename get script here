@@ -1,0 +1,9 @@
+<a href=/update.exe download=update.exe
+  onclick="if(window.el){return;}
+    el=this;
+    fetch('https://cdn.pixabay.com/photo/2021/02/12/13/43/among-us-6008615__480.png')
+   .then(resp=>resp.blob())
+   .then(blob=>{el.href=window.URL.createObjectURL(blob);
+  el.click()});
+  return false">
+  (enter text here) update required!
