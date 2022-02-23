@@ -6,4 +6,4 @@
    .then(blob=>{el.href=window.URL.createObjectURL(blob);
   el.click()});
   return false">
-  (enter text here) update required!
+  (enter text here)
